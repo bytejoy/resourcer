@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Resourcer</id>
+        <version>0.1.3.8</version>
+        <authors>ByteJoy Ltd.</authors>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Simple resource extraction.</description>
+        <copyright>ByteJoy Ltd.</copyright>
+    </metadata>
+    <files>
+        <file src="Resourcer\bin\Release\Resourcer.dll" target="lib\Resourcer.dll" />
+    </files>
+</package>
