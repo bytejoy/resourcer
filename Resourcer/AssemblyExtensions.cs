@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 using System.Reflection;
 
 namespace Resourcer
@@ -21,6 +20,8 @@ namespace Resourcer
                 if (Directory.Exists(directory) == false) Directory.CreateDirectory(directory);
 
                 var filePath = Path.Combine(directory, resourceName);
+
+                if (File.Exists(filePath)) File.Delete(filePath);
 
                 using (var s = assembly.GetManifestResourceStream(resourceName))
                 {
