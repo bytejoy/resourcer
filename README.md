@@ -8,6 +8,8 @@ No nonsense resource extraction.
 Install-Package Resourcer
 ```
 
+# usage
+
 ### extract resource into memory
 
 ```c#
