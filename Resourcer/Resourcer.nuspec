@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>    
+    <owners>ByteJoy Ltd.</owners>
+    <authors>ByteJoy Ltd.</authors>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+	<projectUrl>https://github.com/bytejoyhq/resourcer</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple resource extraction.</description>
+    <copyright>Copyright 2017</copyright>
+  </metadata>
+</package>
