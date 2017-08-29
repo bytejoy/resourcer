@@ -2,6 +2,12 @@
 
 No nonsense resource extraction.
 
+# install
+
+```
+Install-Package Resourcer
+```
+
 # usage
 
 ```c#
